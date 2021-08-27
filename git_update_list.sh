@@ -1,5 +1,5 @@
 git config --global user.email "<>"
-git config --global user.name "GitHub Actions Bot"
+git config --global user.name "LineageOS Tracker BOT"
 git add .
-git commit -m "ROM Tracker: Update List [BOT]"
-git push origin new-implementation
+git commit -m "LineageOS Tracker: Update List [BOT]"
+git push origin LOS

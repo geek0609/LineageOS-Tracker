@@ -1,7 +1,7 @@
 git config --global user.email "<>"
-git config --global user.name "ROM Tracker BOT"
+git config --global user.name "LineageOS Tracker BOT"
 git fetch
 git pull
 git add .
-git commit -m "ROM Tracker: Update SHAs [BOT]"
-git push origin new-implementation
+git commit -m "LineageOS Tracker: Update SHAs [BOT]"
+git push origin LOS

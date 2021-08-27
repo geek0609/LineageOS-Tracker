@@ -1,0 +1,6 @@
+LineageOS/android_frameworks_base
+LineageOS/android_lineage-sdk
+LineageOS/android_packages_apps_Settings
+LineageOS/android_system_sepolicy
+LineageOS/android_hardware_qcom_display
+LineageOS/android_hardware_qcom_media

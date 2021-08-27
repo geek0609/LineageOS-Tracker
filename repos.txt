@@ -1,0 +1,5 @@
+LineageOS/android_vendor_lineage
+LineageOS/android_packages_apps_LineageParts
+LineageOS/android_packages_apps_Trebuchet
+LineageOS/android
+LineageOS/android_build

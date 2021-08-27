@@ -1,0 +1,6 @@
+LineageOS/android_bionic
+LineageOS/android_frameworks_native
+LineageOS/android_packages_apps_Updater
+LineageOS/android_frameworks_av
+LineageOS/android_system_core
+LineageOS/android_hardware_qcom_audio

@@ -6,12 +6,12 @@ on:
     # Only update if these files are changed
     paths:
       - 'update.py'
-      - 'roms.txt'
+      - 'repos.txt'
       - 'git_update_list.sh'
-      - 'roms1.txt'
-      - 'roms2.txt'
-      - 'roms3.txt'
-      - 'roms4.txt'
+      - 'repos1.txt'
+      - 'repos2.txt'
+      - 'repos3.txt'
+      - 'repos4.txt'
 
   # Enables us to manually run it
   workflow_dispatch:
@@ -25,9 +25,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
         with:
-          repository: geek0609/rom-tracker
+          repository: geek0609/LineageOS-Tracker
           token: ${{ secrets.PAT }}
-          ref: new-implementation
+          ref: LOS
 
       - name: Update List
         run: ls && sudo python3 update.py

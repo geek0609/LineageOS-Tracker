@@ -1,43 +1,41 @@
 import datetime
-readme = open("Tracked_ROMs.MD", "w+")
+readme = open("Tracked_Repos.MD", "w+")
 # W+ to rewrite entire list everytime
-content = "# The list of Repos of the ROMs that are tracked" \
-          "\n\n*The list is automatically updated*" \
-          "\n\n### Telegram Channel : [Click Me](https://t.me/ROM_tracker)" \
-          "\n## ROMs:\n"
+content = "# The list of Repos that are tracked" \
+          "\n\n*The list is automatically updated*\n\n" \
 
-roms = open("roms.txt", "r")
+repos = open("repos.txt", "r")
 number = 1
-for rom in roms.readlines():
-    content = content + str(number) + ". [" + rom.strip("\n") + "](https://github.com/" + rom.strip("\n") + ")\n"
+for repo in repos.readlines():
+    content = content + str(number) + ". [" + repo.strip("\n") + "](https://github.com/" + repo.strip("\n") + ")\n"
     number += 1
 
-roms1 = open("roms1.txt", "r")
+repos1 = open("repos1.txt", "r")
 
-for rom in roms1.readlines():
-    content = content + str(number) + ". [" + rom.strip("\n") + "](https://github.com/" + rom.strip("\n") + ")\n"
+for repo in repos1.readlines():
+    content = content + str(number) + ". [" + repo.strip("\n") + "](https://github.com/" + repo.strip("\n") + ")\n"
     number += 1
 
-roms2 = open("roms2.txt", "r")
+repos2 = open("repos2.txt", "r")
 
-for rom in roms2.readlines():
-    content = content + str(number) + ". [" + rom.strip("\n") + "](https://github.com/" + rom.strip("\n") + ")\n"
+for repo in repos2.readlines():
+    content = content + str(number) + ". [" + repo.strip("\n") + "](https://github.com/" + repo.strip("\n") + ")\n"
     number += 1
 
-roms3 = open("roms3.txt", "r")
+repos3 = open("repos3.txt", "r")
 
-for rom in roms3.readlines():
-    content = content + str(number) + ". [" + rom.strip("\n") + "](https://github.com/" + rom.strip("\n") + ")\n"
+for repo in repos3.readlines():
+    content = content + str(number) + ". [" + repo.strip("\n") + "](https://github.com/" + repo.strip("\n") + ")\n"
     number += 1
 
-roms4 = open("roms4.txt", "r")
+repos4 = open("repos4.txt", "r")
 
-for rom in roms4.readlines():
-    content = content + str(number) + ". [" + rom.strip("\n") + "](https://github.com/" + rom.strip("\n") + ")\n"
+for repo in repos4.readlines():
+    content = content + str(number) + ". [" + repo.strip("\n") + "](https://github.com/" + repo.strip("\n") + ")\n"
     number += 1
 
 content = content + "\n### Total number of repos tracked: " + str(number-1) +"\n\nLast updated on : " + str(datetime.datetime.utcnow()) + " UTC"
 
 readme.write(content)
 readme.close()
-roms.close()
+repos.close()

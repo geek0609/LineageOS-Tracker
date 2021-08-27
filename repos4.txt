@@ -1,0 +1,5 @@
+LineageOS/android_device_lineage_sepolicy
+LineageOS/android_system_netd
+LineageOS/android_system_update_engine
+LineageOS/android_external_selinux
+LineageOS/android_packages_services_Telecomm
