@@ -30,7 +30,8 @@
 26. [LineageOS/android_system_update_engine](https://github.com/LineageOS/android_system_update_engine)
 27. [LineageOS/android_external_selinux](https://github.com/LineageOS/android_external_selinux)
 28. [LineageOS/android_packages_services_Telecomm](https://github.com/LineageOS/android_packages_services_Telecomm)
+29. [LineageOS/android_art](https://github.com/LineageOS/android_art)
 
-### Total number of repos tracked: 28
+### Total number of repos tracked: 29
 
-Last updated on : 2021-08-27 14:10:03.969158 UTC
+Last updated on : 2021-09-12 18:30:41.391575 UTC
