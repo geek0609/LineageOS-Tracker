@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: geek0609/LineageOS-Tracker
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           ref: LOS
 
       - name: Run main.py
@@ -47,7 +47,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: geek0609/LineageOS-Tracker
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           ref: LOS
 
       - name: Run main.py
@@ -73,7 +73,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: geek0609/LineageOS-Tracker
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           ref: LOS
 
       - name: Run main.py
@@ -99,7 +99,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: geek0609/LineageOS-Tracker
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           ref: LOS
 
       - name: Run main.py
@@ -125,7 +125,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: geek0609/LineageOS-Tracker
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           ref: LOS
 
       - name: Run main.py
